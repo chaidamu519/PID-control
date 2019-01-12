@@ -13,6 +13,7 @@ As shown here, the car will move stragiht out of the track if there is no contro
 
 #### Only P control
 If only P control is induced, the steering angle is linearly proportional to the cross track error. As a result, the oscillation becomes larger and larger and eventually causes the overshoot as shown here.
+![](P.gif)
 
 #### PD control
 By adding the differential term D, the overshoot problem is resolved. In this project, the PD control can provide similar results as the PID control
