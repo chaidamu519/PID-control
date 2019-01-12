@@ -16,10 +16,10 @@ If only P control is induced, the steering angle is linearly proportional to the
 ![](P.gif)
 
 #### PD control
-By adding the differential term D, the overshoot problem is resolved. In this project, the PD control can provide similar results as the PID control
+By adding the differential term D, the overshoot problem is resolved. In this project, the PD control seems to provide similar results as the PID control
 
 #### PID control
-With the integral term I, the duraiton of the error is taken into account. If there are some systematic biases such as the unaligned steering orientation, the integral correction can contribute and calibrate the car.
+With the integral term I, the total duraiton of the error is taken into account. If there are some systematic biases such as the unaligned steering orientation, the integral correction can contribute and calibrate the car.
 
 
 
