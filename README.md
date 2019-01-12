@@ -9,7 +9,7 @@ Hyperparameters were tuned manually here with several tests. The parameters used
 
 #### Without control
 As shown here, the car will move stragiht out of the track if there is no control on it.
-
+![](without.gif)
 
 #### Only P control
 If only P control is induced, the steering angle is linearly proportional to the cross track error. As a result, the oscillation becomes larger and larger and eventually causes the overshoot as shown here.
