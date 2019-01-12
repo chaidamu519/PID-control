@@ -2,11 +2,23 @@
 Self-Driving Car Engineer Nanodegree Program
 
 ---
-## PID control
+## Experiment
+
+A PID controller conressponds to a proportional-integral-derivative controller. In the system used here, a correction of the steering angle is added based on proportional, derivative and integral of the cross track error.
+Hyperparameters were tuned manually here with several tests. The parameters used in the course are found to be OK for this project.
+
+#### Without control
+As shown here, the car will move stragiht out of the track if there is no control on it.
 
 
+#### Only P control
+If only P control is induced, the steering angle is linearly proportional to the cross track error. As a result, the oscillation becomes larger and larger and eventually causes the overshoot as shown here.
 
+#### PD control
+By adding the differential term D, the overshoot problem is resolved. In this project, the PD control can provide similar results as the PID control
 
+#### PID control
+With the integral term I, the duraiton of the error is taken into account. If there are some systematic biases such as the unaligned steering orientation, the integral correction can contribute and calibrate the car.
 
 
 
